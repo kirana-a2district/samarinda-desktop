@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, UniqueInstance,
-  MainDesktop;
+  MainDesktop, PanelDesktop;
 
 type
 
@@ -38,6 +38,7 @@ begin
   Sleep(1000);
 
   frDesktop.Show;
+  frPanel.Show;
 end;
 
 procedure TfrInit.DockAppDeactivate(Sender: TObject);

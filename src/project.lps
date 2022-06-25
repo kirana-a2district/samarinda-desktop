@@ -7,10 +7,10 @@
       <Unit>
         <Filename Value="project.lpr"/>
         <IsPartOfProject Value="True"/>
-        <EditorIndex Value="4"/>
+        <EditorIndex Value="5"/>
         <TopLine Value="3"/>
-        <CursorPos X="31" Y="13"/>
-        <UsageCount Value="27"/>
+        <CursorPos X="45" Y="13"/>
+        <UsageCount Value="45"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -20,10 +20,9 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="MainDesktop"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="61"/>
-        <CursorPos X="88" Y="66"/>
-        <UsageCount Value="27"/>
+        <TopLine Value="63"/>
+        <CursorPos X="27" Y="76"/>
+        <UsageCount Value="45"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -33,10 +32,25 @@
         <ComponentName Value="frInit"/>
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
-        <EditorIndex Value="3"/>
+        <EditorIndex Value="4"/>
         <TopLine Value="28"/>
-        <CursorPos X="3" Y="39"/>
-        <UsageCount Value="27"/>
+        <CursorPos X="15" Y="41"/>
+        <UsageCount Value="45"/>
+        <Loaded Value="True"/>
+        <LoadedDesigner Value="True"/>
+      </Unit>
+      <Unit>
+        <Filename Value="paneldesktop.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frPanel"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="PanelDesktop"/>
+        <IsVisibleTab Value="True"/>
+        <EditorIndex Value="1"/>
+        <TopLine Value="37"/>
+        <CursorPos X="55" Y="56"/>
+        <UsageCount Value="32"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -45,67 +59,35 @@
         <UnitName Value="WindowListUtils"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="463"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="../../kiranacore-pkg/src/xwindowlist.pas"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="619"/>
         <CursorPos X="13" Y="629"/>
-        <UsageCount Value="10"/>
+        <UsageCount Value="7"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpc-dev/fpc-files/lazarus/lcl/controls.pp"/>
         <UnitName Value="Controls"/>
-        <EditorIndex Value="2"/>
+        <EditorIndex Value="3"/>
         <TopLine Value="172"/>
         <CursorPos X="50" Y="182"/>
-        <UsageCount Value="13"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="../../kiranacore-pkg/src/xwindowutils.pas"/>
         <UnitName Value="XWindowUtils"/>
-        <EditorIndex Value="1"/>
-        <TopLine Value="610"/>
-        <CursorPos X="23" Y="626"/>
-        <UsageCount Value="13"/>
+        <EditorIndex Value="2"/>
+        <TopLine Value="597"/>
+        <CursorPos X="15" Y="615"/>
+        <UsageCount Value="23"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="19">
-      <Position>
-        <Filename Value="initdock.pas"/>
-        <Caret Line="39" Column="39" TopLine="30"/>
-      </Position>
-      <Position>
-        <Filename Value="maindesktop.pas"/>
-        <Caret Line="4" Column="9"/>
-      </Position>
-      <Position>
-        <Filename Value="maindesktop.pas"/>
-        <Caret Line="18" Column="24"/>
-      </Position>
-      <Position>
-        <Filename Value="maindesktop.pas"/>
-        <Caret Line="35" Column="30" TopLine="26"/>
-      </Position>
-      <Position>
-        <Filename Value="maindesktop.pas"/>
-        <Caret Line="45" Column="17" TopLine="33"/>
-      </Position>
-      <Position>
-        <Filename Value="maindesktop.pas"/>
-        <Caret Line="50" Column="40" TopLine="35"/>
-      </Position>
-      <Position>
-        <Filename Value="maindesktop.pas"/>
-        <Caret Line="57" Column="8" TopLine="42"/>
-      </Position>
-      <Position>
-        <Filename Value="maindesktop.pas"/>
-        <Caret Line="51" Column="13" TopLine="32"/>
-      </Position>
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="maindesktop.pas"/>
         <Caret Line="22" Column="26" TopLine="21"/>
@@ -153,6 +135,78 @@
       <Position>
         <Filename Value="maindesktop.pas"/>
         <Caret Line="76" Column="27" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="maindesktop.pas"/>
+        <Caret Line="66" Column="88" TopLine="61"/>
+      </Position>
+      <Position>
+        <Filename Value="maindesktop.pas"/>
+        <Caret Line="65" Column="88" TopLine="60"/>
+      </Position>
+      <Position>
+        <Filename Value="maindesktop.pas"/>
+        <Caret Line="66" Column="88" TopLine="61"/>
+      </Position>
+      <Position>
+        <Filename Value="maindesktop.pas"/>
+        <Caret Line="85" Column="48" TopLine="72"/>
+      </Position>
+      <Position>
+        <Filename Value="maindesktop.pas"/>
+        <Caret Line="80" Column="26" TopLine="66"/>
+      </Position>
+      <Position>
+        <Filename Value="maindesktop.pas"/>
+        <Caret Line="79" Column="26" TopLine="78"/>
+      </Position>
+      <Position>
+        <Filename Value="maindesktop.pas"/>
+        <Caret Line="80" Column="26" TopLine="79"/>
+      </Position>
+      <Position>
+        <Filename Value="maindesktop.pas"/>
+        <Caret Line="79" Column="3" TopLine="71"/>
+      </Position>
+      <Position>
+        <Filename Value="maindesktop.pas"/>
+        <Caret Line="82" Column="3" TopLine="74"/>
+      </Position>
+      <Position>
+        <Filename Value="paneldesktop.pas"/>
+        <Caret Line="7" Column="26"/>
+      </Position>
+      <Position>
+        <Filename Value="paneldesktop.pas"/>
+        <Caret Line="27" Column="57"/>
+      </Position>
+      <Position>
+        <Filename Value="paneldesktop.pas"/>
+        <Caret Line="28" Column="40" TopLine="23"/>
+      </Position>
+      <Position>
+        <Filename Value="paneldesktop.pas"/>
+        <Caret Line="45" Column="13" TopLine="34"/>
+      </Position>
+      <Position>
+        <Filename Value="paneldesktop.pas"/>
+        <Caret Line="49" Column="11" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="../../kiranacore-pkg/src/xwindowutils.pas"/>
+        <Caret Line="607" Column="12" TopLine="597"/>
+      </Position>
+      <Position>
+        <Filename Value="paneldesktop.pas"/>
+        <Caret Line="50" Column="66" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="paneldesktop.pas"/>
+        <Caret Line="57" Column="3" TopLine="40"/>
+      </Position>
+      <Position>
+        <Filename Value="paneldesktop.pas"/>
+        <Caret Line="55" Column="26" TopLine="39"/>
       </Position>
     </JumpHistory>
     <RunParams>

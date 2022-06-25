@@ -54,6 +54,14 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
       </Unit>
+      <Unit>
+        <Filename Value="paneldesktop.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frPanel"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="PanelDesktop"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>
