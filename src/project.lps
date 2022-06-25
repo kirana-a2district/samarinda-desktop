@@ -10,7 +10,7 @@
         <EditorIndex Value="5"/>
         <TopLine Value="3"/>
         <CursorPos X="45" Y="13"/>
-        <UsageCount Value="45"/>
+        <UsageCount Value="48"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -20,9 +20,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="MainDesktop"/>
-        <TopLine Value="63"/>
-        <CursorPos X="27" Y="76"/>
-        <UsageCount Value="45"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="70"/>
+        <CursorPos X="17" Y="82"/>
+        <UsageCount Value="48"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -35,7 +36,7 @@
         <EditorIndex Value="4"/>
         <TopLine Value="28"/>
         <CursorPos X="15" Y="41"/>
-        <UsageCount Value="45"/>
+        <UsageCount Value="48"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -46,11 +47,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="PanelDesktop"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="37"/>
-        <CursorPos X="55" Y="56"/>
-        <UsageCount Value="32"/>
+        <TopLine Value="29"/>
+        <CursorPos X="3" Y="40"/>
+        <UsageCount Value="35"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -74,7 +74,7 @@
         <EditorIndex Value="3"/>
         <TopLine Value="172"/>
         <CursorPos X="50" Y="182"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -83,27 +83,11 @@
         <EditorIndex Value="2"/>
         <TopLine Value="597"/>
         <CursorPos X="15" Y="615"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="25"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
     <JumpHistory HistoryIndex="29">
-      <Position>
-        <Filename Value="maindesktop.pas"/>
-        <Caret Line="22" Column="26" TopLine="21"/>
-      </Position>
-      <Position>
-        <Filename Value="maindesktop.pas"/>
-        <Caret Line="39" Column="27" TopLine="26"/>
-      </Position>
-      <Position>
-        <Filename Value="../../kiranacore-pkg/src/xwindowutils.pas"/>
-        <Caret Line="644" Column="17" TopLine="630"/>
-      </Position>
-      <Position>
-        <Filename Value="maindesktop.pas"/>
-        <Caret Line="68" Column="27" TopLine="52"/>
-      </Position>
       <Position>
         <Filename Value="maindesktop.pas"/>
         <Caret Line="69" Column="27" TopLine="53"/>
@@ -207,6 +191,22 @@
       <Position>
         <Filename Value="paneldesktop.pas"/>
         <Caret Line="55" Column="26" TopLine="39"/>
+      </Position>
+      <Position>
+        <Filename Value="paneldesktop.pas"/>
+        <Caret Line="57" Column="55" TopLine="37"/>
+      </Position>
+      <Position>
+        <Filename Value="paneldesktop.pas"/>
+        <Caret Line="64" Column="99" TopLine="47"/>
+      </Position>
+      <Position>
+        <Filename Value="paneldesktop.pas"/>
+        <Caret Line="63" Column="99" TopLine="46"/>
+      </Position>
+      <Position>
+        <Filename Value="paneldesktop.pas"/>
+        <Caret Line="64" Column="99" TopLine="47"/>
       </Position>
     </JumpHistory>
     <RunParams>

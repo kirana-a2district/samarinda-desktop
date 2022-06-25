@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, Menus,
-  ExtCtrls, UniqueInstance, XWindowUtils, qt5, qtwidgets, xlib, x;
+  ExtCtrls, UniqueInstance, XWindowUtils, qt5, qtwidgets, xlib, x, IniFiles;
 
 type
 
@@ -64,6 +64,8 @@ begin
 end;
 
 procedure TfrDesktop.FormShow(Sender: TObject);
+var
+  Cfg: TIniFile;
 begin
   SelfWindow := QWidget_winId(TQtMainWindow(Self.Handle).Widget);
   Top := 0;
@@ -74,6 +76,10 @@ begin
   Height := Screen.Height;
   Image1.Width := Width;
   Image1.Height := Height;
+  Cfg := TIniFile.Create(ExtractFilePath(Application.ExeName)+'desktop.cfg');
+  if FileExists(Cfg.ReadString('Desktop', 'wallpaper', '')) then
+    Image1.Picture.LoadFromFile(Cfg.ReadString('Desktop', 'wallpaper', ''));
+  FreeAndNil(Cfg);
 end;
 
 procedure TfrDesktop.miKillDesktopClick(Sender: TObject);
