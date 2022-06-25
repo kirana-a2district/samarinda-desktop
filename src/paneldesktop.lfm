@@ -1,0 +1,61 @@
+object frPanel: TfrPanel
+  Left = 466
+  Height = 36
+  Top = 250
+  Width = 952
+  BorderStyle = bsNone
+  Caption = 'Samarinda Desktop Main Panel'
+  ClientHeight = 36
+  ClientWidth = 952
+  DesignTimePPI = 120
+  OnCreate = FormCreate
+  OnShow = FormShow
+  object pnDesktop: TBCPanel
+    Left = 0
+    Height = 36
+    Top = 0
+    Width = 952
+    Align = alClient
+    Background.Color = clBackground
+    Background.ColorOpacity = 230
+    Background.Gradient1.StartColor = clWhite
+    Background.Gradient1.EndColor = clBlack
+    Background.Gradient1.GradientType = gtLinear
+    Background.Gradient1.Point1XPercent = 0
+    Background.Gradient1.Point1YPercent = 0
+    Background.Gradient1.Point2XPercent = 0
+    Background.Gradient1.Point2YPercent = 100
+    Background.Gradient2.StartColor = clWhite
+    Background.Gradient2.EndColor = clBlack
+    Background.Gradient2.GradientType = gtLinear
+    Background.Gradient2.Point1XPercent = 0
+    Background.Gradient2.Point1YPercent = 0
+    Background.Gradient2.Point2XPercent = 0
+    Background.Gradient2.Point2YPercent = 100
+    Background.Gradient1EndPercent = 35
+    Background.Style = bbsColor
+    BevelInner = bvNone
+    BevelOuter = bvNone
+    BevelWidth = 1
+    Border.Style = bboNone
+    Caption = 'Date Time'
+    FontEx.Color = clDefault
+    FontEx.FontQuality = fqSystemClearType
+    FontEx.Shadow = True
+    FontEx.ShadowColor = clInfoText
+    FontEx.ShadowColorOpacity = 100
+    FontEx.ShadowRadius = 9
+    FontEx.ShadowOffsetX = 3
+    FontEx.ShadowOffsetY = 3
+    FontEx.Style = []
+    ParentBackground = False
+    Rounding.RoundX = 1
+    Rounding.RoundY = 1
+    TabOrder = 0
+  end
+  object Timer1: TTimer
+    OnTimer = Timer1Timer
+    Left = 717
+    Top = 8
+  end
+end
