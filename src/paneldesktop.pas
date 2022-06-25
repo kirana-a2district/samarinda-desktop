@@ -6,13 +6,15 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, ExtCtrls, BCPanel,
-  DateUtils, x, xlib, qt5, qtwidgets;
+  BCButton, DateUtils, x, xlib, qt5, qtwidgets;
 
 type
 
   { TfrPanel }
 
   TfrPanel = class(TForm)
+    BCButton1: TBCButton;
+    BCButton2: TBCButton;
     pnDesktop: TBCPanel;
     Timer1: TTimer;
     procedure FormCreate(Sender: TObject);
