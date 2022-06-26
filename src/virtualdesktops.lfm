@@ -1,0 +1,24 @@
+object frVirtualDesktops: TfrVirtualDesktops
+  Left = 466
+  Height = 124
+  Top = 250
+  Width = 1000
+  BorderStyle = bsNone
+  Caption = 'frVirtualDesktops'
+  ClientHeight = 124
+  ClientWidth = 1000
+  DesignTimePPI = 120
+  FormStyle = fsSystemStayOnTop
+  OnDeactivate = FormDeactivate
+  OnShow = FormShow
+  ShowInTaskBar = stNever
+  LCLVersion = '2.2.3.0'
+  object Label1: TLabel
+    Left = 18
+    Height = 22
+    Top = 12
+    Width = 47
+    Caption = 'Label1'
+    ParentColor = False
+  end
+end

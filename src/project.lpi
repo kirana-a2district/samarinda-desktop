@@ -65,6 +65,14 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="PanelDesktop"/>
       </Unit>
+      <Unit>
+        <Filename Value="virtualdesktops.pas"/>
+        <IsPartOfProject Value="True"/>
+        <ComponentName Value="frVirtualDesktops"/>
+        <HasResources Value="True"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="VirtualDesktops"/>
+      </Unit>
     </Units>
   </ProjectOptions>
   <CompilerOptions>

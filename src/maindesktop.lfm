@@ -12,6 +12,7 @@ object frDesktop: TfrDesktop
   OnDestroy = FormDestroy
   OnShow = FormShow
   PopupMenu = PopupMenu1
+  LCLVersion = '2.2.3.0'
   object Image1: TImage
     Left = 0
     Height = 396

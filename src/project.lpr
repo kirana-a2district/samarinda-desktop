@@ -10,7 +10,7 @@ uses
   athreads,
   {$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, initdock, MainDesktop, PanelDesktop
+  Forms, initdock, MainDesktop, PanelDesktop, VirtualDesktops
   { you can add units after this };
 
 {$R *.res}
@@ -22,6 +22,7 @@ begin
   Application.CreateForm(TfrInit, frInit);
   Application.CreateForm(TfrDesktop, frDesktop);
   Application.CreateForm(TfrPanel, frPanel);
+  Application.CreateForm(TfrVirtualDesktops, frVirtualDesktops);
   Application.Run;
 end.
 

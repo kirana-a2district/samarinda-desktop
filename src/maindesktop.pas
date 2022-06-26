@@ -6,7 +6,8 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, Menus,
-  ExtCtrls, UniqueInstance, XWindowUtils, qt5, qtwidgets, xlib, x, IniFiles;
+  ExtCtrls, UniqueInstance, XWindowUtils, qt5, qtwidgets,
+  xlib, x, IniFiles;
 
 type
 
@@ -70,12 +71,13 @@ begin
   SelfWindow := QWidget_winId(TQtMainWindow(Self.Handle).Widget);
   Top := 0;
   Left := 0;
-
-  util.SetDesktopMode(SelfWindow);
   Width := Screen.Width;
   Height := Screen.Height;
   Image1.Width := Width;
   Image1.Height := Height;
+
+  util.SetDesktopMode(SelfWindow);
+
   Cfg := TIniFile.Create(ExtractFilePath(Application.ExeName)+'desktop.cfg');
   if FileExists(Cfg.ReadString('Desktop', 'wallpaper', '')) then
     Image1.Picture.LoadFromFile(Cfg.ReadString('Desktop', 'wallpaper', ''));
