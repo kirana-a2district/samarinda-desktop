@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, Forms, Controls, Graphics, Dialogs, UniqueInstance,
-  MainDesktop, PanelDesktop;
+  MainDesktop, PanelDesktop, VirtualDesktops;
 
 type
 
@@ -43,7 +43,8 @@ end;
 
 procedure TfrInit.DockAppDeactivate(Sender: TObject);
 begin
-
+  if frVirtualDesktops.Visible then
+    frVirtualDesktops.Close;
 end;
 
 end.
