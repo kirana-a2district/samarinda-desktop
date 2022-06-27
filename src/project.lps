@@ -10,7 +10,7 @@
         <EditorIndex Value="5"/>
         <TopLine Value="3"/>
         <CursorPos X="62" Y="13"/>
-        <UsageCount Value="101"/>
+        <UsageCount Value="131"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -20,9 +20,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="MainDesktop"/>
-        <TopLine Value="69"/>
+        <IsVisibleTab Value="True"/>
+        <TopLine Value="78"/>
         <CursorPos X="26" Y="77"/>
-        <UsageCount Value="101"/>
+        <UsageCount Value="131"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -35,7 +36,7 @@
         <EditorIndex Value="3"/>
         <TopLine Value="31"/>
         <CursorPos X="38" Y="47"/>
-        <UsageCount Value="101"/>
+        <UsageCount Value="131"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -49,7 +50,7 @@
         <EditorIndex Value="1"/>
         <TopLine Value="60"/>
         <CursorPos X="45" Y="60"/>
-        <UsageCount Value="88"/>
+        <UsageCount Value="118"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -60,27 +61,12 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="VirtualDesktops"/>
-        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
         <TopLine Value="54"/>
-        <CursorPos X="8" Y="64"/>
-        <UsageCount Value="72"/>
+        <CursorPos X="78" Y="62"/>
+        <UsageCount Value="102"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
-      </Unit>
-      <Unit>
-        <Filename Value="../../kiranacore-pkg/src/windowlistutils.pas"/>
-        <UnitName Value="WindowListUtils"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="463"/>
-        <UsageCount Value="2"/>
-      </Unit>
-      <Unit>
-        <Filename Value="../../kiranacore-pkg/src/xwindowlist.pas"/>
-        <EditorIndex Value="-1"/>
-        <TopLine Value="619"/>
-        <CursorPos X="13" Y="629"/>
-        <UsageCount Value="2"/>
       </Unit>
       <Unit>
         <Filename Value="../../../../fpc-dev/fpc-files/lazarus/lcl/controls.pp"/>
@@ -88,7 +74,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="172"/>
         <CursorPos X="50" Y="182"/>
-        <UsageCount Value="50"/>
+        <UsageCount Value="47"/>
       </Unit>
       <Unit>
         <Filename Value="../../kiranacore-pkg/src/xwindowutils.pas"/>
@@ -96,21 +82,21 @@
         <EditorIndex Value="4"/>
         <TopLine Value="562"/>
         <CursorPos X="35" Y="573"/>
-        <UsageCount Value="23"/>
+        <UsageCount Value="38"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="../../kiranacore-pkg/src/systemappmonitor.pas"/>
         <UnitName Value="SystemAppMonitor"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="11"/>
+        <UsageCount Value="8"/>
       </Unit>
       <Unit>
         <Filename Value="../../kiranacore-pkg/src/dirwatcher.pas"/>
         <UnitName Value="DirWatcher"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="131"/>
-        <UsageCount Value="11"/>
+        <UsageCount Value="8"/>
       </Unit>
       <Unit>
         <Filename Value="../../kiranacore-pkg/src/kiranawindows.pas"/>
@@ -118,11 +104,11 @@
         <EditorIndex Value="6"/>
         <TopLine Value="40"/>
         <CursorPos X="61" Y="51"/>
-        <UsageCount Value="11"/>
+        <UsageCount Value="26"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="29">
+    <JumpHistory HistoryIndex="28">
       <Position>
         <Filename Value="paneldesktop.pas"/>
         <Caret Line="45" Column="13" TopLine="34"/>
@@ -226,10 +212,6 @@
       <Position>
         <Filename Value="virtualdesktops.pas"/>
         <Caret Line="41" Column="3" TopLine="26"/>
-      </Position>
-      <Position>
-        <Filename Value="virtualdesktops.pas"/>
-        <Caret Line="12" Column="50" TopLine="23"/>
       </Position>
       <Position>
         <Filename Value="virtualdesktops.pas"/>
