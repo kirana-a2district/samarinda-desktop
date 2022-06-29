@@ -20,9 +20,8 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="MainDesktop"/>
-        <IsVisibleTab Value="True"/>
-        <TopLine Value="78"/>
-        <CursorPos X="26" Y="77"/>
+        <TopLine Value="73"/>
+        <CursorPos X="67" Y="82"/>
         <UsageCount Value="131"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -48,8 +47,8 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="PanelDesktop"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="60"/>
-        <CursorPos X="45" Y="60"/>
+        <TopLine Value="65"/>
+        <CursorPos X="100" Y="66"/>
         <UsageCount Value="118"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -61,9 +60,10 @@
         <HasResources Value="True"/>
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="VirtualDesktops"/>
+        <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="54"/>
-        <CursorPos X="78" Y="62"/>
+        <TopLine Value="73"/>
+        <CursorPos X="31" Y="9"/>
         <UsageCount Value="102"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
@@ -108,23 +108,7 @@
         <Loaded Value="True"/>
       </Unit>
     </Units>
-    <JumpHistory HistoryIndex="28">
-      <Position>
-        <Filename Value="paneldesktop.pas"/>
-        <Caret Line="45" Column="13" TopLine="34"/>
-      </Position>
-      <Position>
-        <Filename Value="paneldesktop.pas"/>
-        <Caret Line="49" Column="11" TopLine="40"/>
-      </Position>
-      <Position>
-        <Filename Value="paneldesktop.pas"/>
-        <Caret Line="50" Column="66" TopLine="40"/>
-      </Position>
-      <Position>
-        <Filename Value="paneldesktop.pas"/>
-        <Caret Line="57" Column="3" TopLine="40"/>
-      </Position>
+    <JumpHistory HistoryIndex="29">
       <Position>
         <Filename Value="paneldesktop.pas"/>
         <Caret Line="55" Column="26" TopLine="39"/>
@@ -224,6 +208,26 @@
       <Position>
         <Filename Value="virtualdesktops.pas"/>
         <Caret Line="63" Column="16" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="virtualdesktops.pas"/>
+        <Caret Line="62" Column="78" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="virtualdesktops.pas"/>
+        <Caret Line="61" Column="78" TopLine="53"/>
+      </Position>
+      <Position>
+        <Filename Value="virtualdesktops.pas"/>
+        <Caret Line="62" Column="78" TopLine="54"/>
+      </Position>
+      <Position>
+        <Filename Value="virtualdesktops.pas"/>
+        <Caret Line="63" Column="78" TopLine="55"/>
+      </Position>
+      <Position>
+        <Filename Value="virtualdesktops.pas"/>
+        <Caret Line="82" Column="32" TopLine="73"/>
       </Position>
     </JumpHistory>
     <RunParams>

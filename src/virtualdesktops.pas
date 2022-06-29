@@ -5,7 +5,8 @@ unit VirtualDesktops;
 interface
 
 uses
-  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, ExtCtrls, fgl;
+  Classes, SysUtils, Forms, Controls, Graphics, Dialogs, StdCtrls, ExtCtrls,
+  BCPanel, fgl, qt5, qtwidgets;
 
 type
 
@@ -14,7 +15,7 @@ type
   { TfrVirtualDesktops }
 
   TfrVirtualDesktops = class(TForm)
-    Panel1: TPanel;
+    pnDesktops: TBCPanel;
     procedure FormCreate(Sender: TObject);
     procedure FormDeactivate(Sender: TObject);
     procedure FormDestroy(Sender: TObject);
@@ -49,6 +50,8 @@ end;
 
 procedure TfrVirtualDesktops.FormCreate(Sender: TObject);
 begin
+  QWidget_setAttribute(TQtMainWindow(Self.Handle).Widget, QtWA_TranslucentBackground);
+  QWidget_setAttribute(TQtMainWindow(Self.Handle).GetContainerWidget, QtWA_TranslucentBackground);
   ButtonList := TButtonList.Create;
 end;
 
@@ -76,7 +79,7 @@ begin
   for i := 1 to frDesktop.util.GetDesktopCount do
   begin
     tmpBtn := TButton.Create(nil);
-    tmpBtn.Parent := Panel1;
+    tmpBtn.Parent := pnDesktops;
     tmpBtn.Width := 300;
     tmpBtn.OnClick := @ButtonSelectDesktopClick;
     tmpBtn.Caption := 'Desktop ' + i.ToString;
