@@ -10,7 +10,7 @@
         <EditorIndex Value="5"/>
         <TopLine Value="3"/>
         <CursorPos X="62" Y="13"/>
-        <UsageCount Value="131"/>
+        <UsageCount Value="163"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
@@ -22,7 +22,7 @@
         <UnitName Value="MainDesktop"/>
         <TopLine Value="73"/>
         <CursorPos X="67" Y="82"/>
-        <UsageCount Value="131"/>
+        <UsageCount Value="163"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -35,7 +35,7 @@
         <EditorIndex Value="3"/>
         <TopLine Value="31"/>
         <CursorPos X="38" Y="47"/>
-        <UsageCount Value="131"/>
+        <UsageCount Value="163"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -47,9 +47,9 @@
         <ResourceBaseClass Value="Form"/>
         <UnitName Value="PanelDesktop"/>
         <EditorIndex Value="1"/>
-        <TopLine Value="65"/>
+        <TopLine Value="62"/>
         <CursorPos X="100" Y="66"/>
-        <UsageCount Value="118"/>
+        <UsageCount Value="150"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -62,9 +62,9 @@
         <UnitName Value="VirtualDesktops"/>
         <IsVisibleTab Value="True"/>
         <EditorIndex Value="2"/>
-        <TopLine Value="73"/>
+        <TopLine Value="72"/>
         <CursorPos X="31" Y="9"/>
-        <UsageCount Value="102"/>
+        <UsageCount Value="134"/>
         <Loaded Value="True"/>
         <LoadedDesigner Value="True"/>
       </Unit>
@@ -74,7 +74,7 @@
         <EditorIndex Value="-1"/>
         <TopLine Value="172"/>
         <CursorPos X="50" Y="182"/>
-        <UsageCount Value="47"/>
+        <UsageCount Value="44"/>
       </Unit>
       <Unit>
         <Filename Value="../../kiranacore-pkg/src/xwindowutils.pas"/>
@@ -82,21 +82,21 @@
         <EditorIndex Value="4"/>
         <TopLine Value="562"/>
         <CursorPos X="35" Y="573"/>
-        <UsageCount Value="38"/>
+        <UsageCount Value="54"/>
         <Loaded Value="True"/>
       </Unit>
       <Unit>
         <Filename Value="../../kiranacore-pkg/src/systemappmonitor.pas"/>
         <UnitName Value="SystemAppMonitor"/>
         <EditorIndex Value="-1"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="5"/>
       </Unit>
       <Unit>
         <Filename Value="../../kiranacore-pkg/src/dirwatcher.pas"/>
         <UnitName Value="DirWatcher"/>
         <EditorIndex Value="-1"/>
         <TopLine Value="131"/>
-        <UsageCount Value="8"/>
+        <UsageCount Value="5"/>
       </Unit>
       <Unit>
         <Filename Value="../../kiranacore-pkg/src/kiranawindows.pas"/>
@@ -104,7 +104,7 @@
         <EditorIndex Value="6"/>
         <TopLine Value="40"/>
         <CursorPos X="61" Y="51"/>
-        <UsageCount Value="26"/>
+        <UsageCount Value="42"/>
         <Loaded Value="True"/>
       </Unit>
     </Units>
